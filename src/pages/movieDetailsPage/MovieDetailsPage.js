@@ -15,6 +15,7 @@ const MovieDetailsPage = ({ match, location, history }) => {
 
   useEffect(() => {
     setParams({ ...location.state }); //from, query
+    // eslint-disable-next-line
   }, []);
 
   useEffect(() => {
